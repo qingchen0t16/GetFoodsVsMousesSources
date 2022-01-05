@@ -1,2 +1,2 @@
-# GetFoodsVsMousesSources
-获取不完整的美食大战老鼠素材资料
+获取美食大战老鼠的部分数据
+多线程版本在 multithreadingVer分支 是重写过的大改版本
