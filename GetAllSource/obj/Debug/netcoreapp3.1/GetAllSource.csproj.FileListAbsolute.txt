@@ -1,0 +1,14 @@
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\obj\Debug\netcoreapp3.1\GetAllSource.csproj.AssemblyReference.cache
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\obj\Debug\netcoreapp3.1\GetAllSource.GeneratedMSBuildEditorConfig.editorconfig
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\obj\Debug\netcoreapp3.1\GetAllSource.AssemblyInfoInputs.cache
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\obj\Debug\netcoreapp3.1\GetAllSource.AssemblyInfo.cs
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\obj\Debug\netcoreapp3.1\GetAllSource.csproj.CoreCompileInputs.cache
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\bin\Debug\netcoreapp3.1\GetAllSource.exe
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\bin\Debug\netcoreapp3.1\GetAllSource.deps.json
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\bin\Debug\netcoreapp3.1\GetAllSource.runtimeconfig.json
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\bin\Debug\netcoreapp3.1\GetAllSource.runtimeconfig.dev.json
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\bin\Debug\netcoreapp3.1\GetAllSource.dll
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\bin\Debug\netcoreapp3.1\GetAllSource.pdb
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\obj\Debug\netcoreapp3.1\GetAllSource.dll
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\obj\Debug\netcoreapp3.1\GetAllSource.pdb
+E:\Food VS. MOUSE\GitHub\GetFoodsVsMousesSources\GetAllSource\obj\Debug\netcoreapp3.1\GetAllSource.genruntimeconfig.cache

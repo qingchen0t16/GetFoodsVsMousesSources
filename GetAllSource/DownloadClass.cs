@@ -8,7 +8,15 @@ namespace GetAllSource
 {
     public static class DownloadClass
     {
-        public static bool DownloadFile(string url, string filePath, Action<float, string, int> action, string errerMsg = "null", int index = -1)
+        /// <summary>
+        /// 下载文件
+        /// </summary>
+        /// <param name="url">下载地址</param>
+        /// <param name="filePath">存放位置</param>
+        /// <param name="action">完成后执行内容</param>
+        /// <param name="errerMsg">错误显示内容</param>
+        /// <returns></returns>
+        public static bool DownloadFile(string url, string filePath, Action<float, string> action, string errerMsg = "null")
         {
             float percent = 0;
             try
@@ -29,7 +37,7 @@ namespace GetAllSource
 
                     percent = (float)totalDownloadBytes / totalBytes * 100F;
                     if (action != null)
-                        action(percent, "", index);
+                        action(percent, "");
                 }
                 st.Close();
                 fileSt.Close();
@@ -38,7 +46,7 @@ namespace GetAllSource
             catch (Exception ex)
             {
                 if (action != null)
-                    action(0, errerMsg == "null" ? ex.Message : errerMsg, index);
+                    action(0, errerMsg == "null" ? ex.Message : errerMsg);
                 return false;
             }
         }
