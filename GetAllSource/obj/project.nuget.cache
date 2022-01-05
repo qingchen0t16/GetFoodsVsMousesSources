@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hN/X3eRB3kzCp6SDw8P3WTqKjZN5vru12k8WIYfNhyQpgSVELAfbMazjacU/jtyJoMFm2zwr55iwZANeWo62gg==",
+  "success": true,
+  "projectFilePath": "E:\\Food VS. MOUSE\\GitHub\\GetFoodsVsMousesSources\\GetAllSource\\GetAllSource.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\qc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
