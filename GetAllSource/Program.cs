@@ -8,26 +8,20 @@ using System.Xml;
 
 namespace GetAllSource
 {
-    public class FileListItem
-    {
-        string id, name, url, version, descript, baseUrl;
 
-        public string Id { get => id; set => id = value; }
-        public string Name { get => name; set => name = value; }
-        public string Url { get => url; set => url = value; }
-        public string Version { get => version; set => version = value; }
-        public string Descript { get => descript; set => descript = value; }
-        public string BaseUrl { get => baseUrl; set => baseUrl = value; }
-    }
 
     class Program
     {
         static void Main(string[] args)
         {
-            List<FileListItem> fileList = new List<FileListItem>();
             List<string> idList = new List<string>();
+            /*
+                errorFileNum    错误的文件数
+                fileDoneNum     完成的文件数
+                allFileNum      文件总数
+             */
             int errorFileNum = 0, fileDoneNum = 0, fileExists = 0, allFileNum = 0;
-
+            // 获取LoadFilesList.xml(这个文件是直接用的美食官网的)
             Stream st = WebRequest.Create("https://q.ms.huanlecdn.com/4399/cdn.123u.com/LoadFilesList.xml").GetResponse().GetResponseStream();
             XmlDocument xmlDoc = new XmlDocument();
             xmlDoc.LoadXml(new StreamReader(st).ReadToEnd());
